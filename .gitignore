@@ -1,0 +1,18 @@
+# Built binary (produced by `go build`)
+gojobs-ca
+gojobs-ca.exe
+gojobs-ca.exe~
+
+# Packaging artifact
+gojobs-ca.zip
+
+# Generated job data — regenerate anytime with `gojobs-ca scrape`.
+# companies.json is the curated *input* and IS committed; jobs.json is output.
+jobs.json
+
+# Local tooling / editor scaffolding
+.claude/
+
+# OS cruft
+.DS_Store
+Thumbs.db
